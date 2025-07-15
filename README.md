@@ -54,15 +54,41 @@ Performed the following operations:
 ### ✅ Step 7: Save & Push to GitHub
 Saved predictions to `twitter_sentiment_results.csv` and pushed the file to this GitHub repository.
 
+
+### Confusion Matrix
+
+|              | Predicted Negative | Predicted Neutral | Predicted Positive |
+|--------------|--------------------|-------------------|--------------------|
+| Actual Negative | 345 | 89 | 66 |
+| Actual Neutral  | 64 | 305 | 81 |
+| Actual Positive | 42 | 95 | 413 |
+
 ---
 
-## 📊 Results
+## 🛠️ Technologies Used
 
-### Classification Report (Sample)
-          precision    recall  f1-score   support
+- **Python 3**
+- **Google Colab**
+- **Pandas**, **NumPy**
+- **NLTK** – Stopwords, Tokenizer, VADER
+- **Matplotlib**, **Seaborn** – Visualization
+- **Scikit-learn** – Evaluation metrics
+- **Git + GitHub** – Version control
 
-negative       0.72      0.69      0.70       500
- neutral       0.65      0.68      0.66       450
-positive       0.78      0.75      0.76       550
+---
 
-accuracy                           0.71      1500
+## 📈 Visualizations (Optional)
+
+- Confusion matrix heatmap
+- Pie chart or bar plot of sentiment distribution
+- Word cloud of most frequent words per sentiment (can be added later)
+
+---
+
+## 📥 How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Vikram7447/twitter-sentiment-analysis.git
+   cd twitter-sentiment-analysis
+
